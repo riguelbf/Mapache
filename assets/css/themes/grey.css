@@ -1,1 +1,32 @@
-.header.toolbar-shadow,.cover,.btn.btn-primary,.sidebar .title-primary{background-color:#607d8b !important}.form-control:focus{border-color:#607d8b !important;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(96,125,139,0.6)}
+.header.toolbar-shadow,
+.cover,
+.btn.btn-primary,
+.sidebar .title-primary {
+    background: rgba(102, 102, 102, 0.68);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+}
+
+.form-control:focus {
+    border-color: #607d8b !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(96, 125, 139, 0.6)
+}
+
+.Aboutme-img {
+    background: url(https://avatars3.githubusercontent.com/u/7014252?v=3&s=460);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0 0 0 0 rgba(200, 95, 66, 0.4), inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 0 0 rgba(200, 95, 66, 0.4), inset 0 0 0 3px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    width: 200px;
+}
