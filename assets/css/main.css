@@ -620,7 +620,7 @@ html {
 }
 
 a {
-    color: #039be5;
+    color: #a92525;
     outline: 0;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent
@@ -630,7 +630,7 @@ a:focus {
     text-decoration: none;
     background-color: transparent
 }
-
+a:hover{ color: black}
 a.external:after {
     content: "";
     margin-left: 5px
